@@ -17,7 +17,6 @@ public class Exercise1 {
                 }
             }
         }
-
 //_________________________________________________________
         public static void main(String[] args) {
             Exercise1.getNumber();

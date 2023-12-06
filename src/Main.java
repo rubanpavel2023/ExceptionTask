@@ -23,23 +23,13 @@ import java.util.Scanner;
                 System.out.println("_________________________");
 
                 System.out.println("Exercise #3");
-                CardTransaction Dmitry = new CardTransaction();
-                Dmitry.getIncomingSum();
-                Dmitry.getResultBalance();
-
-                Dmitry.getExpensesSum();
-                Dmitry.getResultBalance();
-
-                Dmitry.getIncomingSum();
-                Dmitry.getResultBalance();
-
-                Dmitry.getExpensesSum();
-                Dmitry.getResultBalance();
+                CardTransaction.getIncomingSum();
+                CardTransaction.getExpensesSum();
+                CardTransaction.getIncomingSum();
+                CardTransaction.getExpensesSum();
 
                 System.out.println("Exercise #4");
                 Exercise4.tempControl();
-
-
 
             }
         }

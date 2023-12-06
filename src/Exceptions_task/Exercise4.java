@@ -9,11 +9,11 @@ public class Exercise4 {
         Scanner scanner = new Scanner(System.in);
         int temp;
         while (true) {
-        System.out.println("Задайте допустимую температуру устройства (от -10 до +35 градусов) ");
+        System.out.println("Set the permissible temperature of the device (from -10 to +35 degrees)");
         try {
                 temp = scanner.nextByte();
                 validateTemp(temp);
-                System.out.println("Устройство успешно работает. Текущая (заданная) температура: " + temp + " градусов");
+                System.out.println("The device is working successfully. Current (set) temperature: " + temp + " degrees");
                 break;
             }
         catch(InputMismatchException ex){
@@ -30,9 +30,10 @@ public class Exercise4 {
                 byte max = 35;
                 byte min = -10;
                 if (temp > max || temp < min) {
-                    throw new Exception("(!) Вы ввели значение температуры вне допустимого диапазона (от -10 до +35");
+                    throw new Exception("(!) You entered a temperature value outside the acceptable range (от -10 до +35");
                 }
             }
+
 
 //___________________________________________________________________________________
             public static void main (String[]args) throws Exception {
