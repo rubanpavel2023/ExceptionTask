@@ -22,5 +22,6 @@ public class Exercise1 {
             Exercise1.getNumber();
             System.out.println("________________________");
         }
+
     }
 

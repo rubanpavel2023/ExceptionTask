@@ -39,6 +39,7 @@ public class Exercise4 {
             public static void main (String[]args) throws Exception {
                 Exercise4.tempControl();
             }
+
         }
 
 
